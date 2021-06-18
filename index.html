@@ -264,7 +264,7 @@ td {
             </div>
             <div class="form-group">
               <label for="exampleFormControlInput1">Имя и фамилия</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Имя Фамилия">
             </div>
             <div class="form-group">
               <label for="exampleFormControlSelect1">Страна проживания</label>
@@ -289,7 +289,12 @@ td {
               </select>
             </div>
             <div class="form-group">
-              <label for="exampleFormControlSelect2">Какой язык (или языки) вы хотите изучать?</label>
+              <label for="exampleFormControlTextarea1">Город</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+            </div>
+          </form>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Какой язык вы хотите изучать?</label>
               <select multiple class="form-control" id="exampleFormControlSelect2">
                 <option>Английский</option>
                 <option>Испанский</option>
@@ -297,19 +302,25 @@ td {
                 <option>Польский</option>
               </select>
             </div>
+
             <div class="form-group">
               <label for="exampleFormControlSelect1">Уровень знания этого языка на данный момент:</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>Нулевой</option>
+              <select class="form-control" id="exampleFormControlSelect3">
+                <option>Знания отсутствуют</option>
                 <option>Начальный (А1-А2)</option>
                 <option>Средний (B1)</option>
                 <option>Продвинутый средний (B2)</option>
-                <option>Продвинутый средний (B2)</option>
               </select>
             </div>
-
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <label for="exampleFormControlSelect2">Форма обучения</label>
+              <select multiple class="form-control" id="exampleFormControlSelect4">
+                <option>Индивидуальные занятия</option>
+                <option>Групповые занятия</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea2">В какое время и сколько раз в неделю вы хотите заниматься?</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
           </form>
