@@ -1,0 +1,9 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$primary: #6B7A8F;
+$danger: #F7882F;
+$success: #F7C331;
+$warning: #6B7A8F;
+$info: #DCC7AA;
+$theme-colors: ("primary": $primary,"danger": $danger,"success": $success,"warning": $warning,"info": $info);
